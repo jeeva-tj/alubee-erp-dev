@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "alubee-erp-dev",
+  "private_key_id": "784c7e7d40b8e03e81403c4a0d96c8627c7281cd",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDXEhmcK4DgCGKK\nbvXxZyMczlou+WsiEHI8iEaCW0Xoz80QXDDHE4rfv9A1Tn7Uy5GxXm9BX54lbrJZ\nrXnmoPoG7bbBTNXeV8Do5pw+GYDHO4rQQv1XovpFSIreQg9J4d/Rp2tsjQ0K2ZSB\niODjGCZb+awrRYyo/ReLe4DO9eQR79s1g5vdydj+AFeaL4vSlI6Q9V/ImeB1yTZQ\nUFsIKUKiMPRIcCcbBbES3nVfNqplv7P+mS/jo/fAnESKyuk/3aJBe4M8xVzarsKy\nmeuMElak5tu1JB+tQ85fWw7PglFoQWspid9ZVxMPAahNhUOj8NpuAiF6Wo7B39Li\nbsqq3tHzAgMBAAECggEAFPDdD9YyjF3J+SWttSLFifVTqvWRJ2DHkWT0Ieww2zwk\ngN52cg575qZevQSsF8chzqMzHP/qPkXQKtLX0YtvXNkCLZcazzU8giY2JLEcrLQm\nTiSVAKv3R2NgAMfDhP5FFJJYb4TaYL89FPxsEos+7OoGCAk+ar6ImjBdIzRQ+n1H\nvpvANOUvf31urHXm/Y/zgfURHzieuuj8v7eiYOMFPA7dcwB7qXEqHbb7pGTA2sD6\neDJ4XhuzExEEdBjMPDAvvDIxZUx96rYDuXlZu77W4TFDRzUwppeS12a5tBHA+H2K\nZdtxD6KBPF1kob/j4wcBEPtIo0hcVZOOulL+FaSmrQKBgQDq1iktR1G9HfJA/ZFm\nrAhjgYEC6+DqcXw7FF3/dieviCrfnV7TrQmTp1cjzHtOiGeFrEYT6EFVgrBMCrVF\n1lpiRFgVdHayhcT9aqvy7dEWAnndBgJQgWYfDl475AmHV7GBJwNNfRb0cGyGCnpT\nhKZMS+SA9L9IwblnfYyiKCHT1QKBgQDqc+1kT8rL5kawNvnBtL3buVFuG6vgtoDJ\nl95ZK0m1bRqwEG286pd/Gww8Se9m7iP8LirVubWXL3ScrBV9xMOtCoVJVeUlbrfw\nnZlCoB4SE4GTnDYDrmavGMJr0xvH2udgPeuR+/zmer7KNdzxn49JfDM9O9YPz3AO\nr51RvyIapwKBgGXBCDSLW5qTWD3a4V7YmgXrvmfypxFOvSKoT5Z6rvV7DgC4orcb\nmjO1ZaeoWaGMrzaXkAHeODkCGLvKRAOPvrgnnvck8K2oEtQvnXP0og1kY0Nm8CfL\n+eDpC+HtjEdtswcgTWkNE540/IEUFy8LIjebBtbttdijwF9cYkx9ETNFAoGANJLa\nYOwjpaV1pH4vc2h8SpE72V0LJdDHAG21xnkWhkB5A5IriXlxj2cZT0ulC4fLOfmA\nUXzbY5OYqqlMCG/fESaSzOceA07YoHQ2seIF3DfTjq4wzpKFJC6BKnykdiR4TfSU\npp/DDkvoDKAXc3c8QlY/hzOrxM/XaPOoa3RYyXECgYEAsh3ibJicRKEAQgdq0Dm6\ngSl6Fo+ez95vBrB5u1gmzuW4zF+LfN0wvESzRkjnwftyuy4bJuZCOlZZHPHmww2K\nkafpPUcWZYXtUKYBaR46V9CHfHb10KSeZ1eVLBpfgXWuQb3qXutDFfpZNi/hwObR\nNGGKieB1leIW5moeTtfexSE=\n-----END PRIVATE KEY-----\n",
+  "client_email": "alubee-erp@alubee-erp-dev.iam.gserviceaccount.com",
+  "client_id": "101350949383385924188",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/alubee-erp%40alubee-erp-dev.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
