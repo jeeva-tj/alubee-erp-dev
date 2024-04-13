@@ -36,11 +36,12 @@ RUN npm install --only=production
 # Set the environmental variable for JWT token
 ENV JWT_SECRET="12345"
 ENV NODE_ENV="production"
+# Set the environmental variable for JWT token
+ENV JWT_SECRET="12345"
+ENV NODE_ENV="production"
+
 # Copy local code to the container image.
 COPY . ./
 
-# Run the web service on container startup.
-CMD [ "node", "server.js" ]
-
-# [END run_helloworld_dockerfile]
-# [END cloudrun_helloworld_dockerfile]
+# Run the web service on container startup using npm start.
+CMD [ "npm", "start" ]
