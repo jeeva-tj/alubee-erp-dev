@@ -1,46 +1,20 @@
-# Copyright 2020 Google LLC
-#
-# Licensed under the Apache License, Version 2.0 (the "License");
-# you may not use this file except in compliance with the License.
-# You may obtain a copy of the License at
-#
-#     https://www.apache.org/licenses/LICENSE-2.0
-#
-# Unless required by applicable law or agreed to in writing, software
-# distributed under the License is distributed on an "AS IS" BASIS,
-# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-# See the License for the specific language governing permissions and
-# limitations under the License.
-
-# [START cloudrun_helloworld_dockerfile]
-# [START run_helloworld_dockerfile]
-
-# Use the official lightweight Node.js image.
-# https://hub.docker.com/_/node
+# Set the base image to use for subsequent instructions
 FROM node:18-slim
 
-# Create and change to the app directory.
+# Set the working directory inside the container
 WORKDIR /usr/src/app
 
-# Copy application dependency manifests to the container image.
-# A wildcard is used to ensure copying both package.json AND package-lock.json (when available).
-# Copying this first prevents re-running npm install on every code change.
+# Copy package.json and package-lock.json files
 COPY package*.json ./
 
-
-# Install production dependencies.
-# If you add a package-lock.json, speed your build by switching to 'npm ci'.
-# RUN npm ci --only=production
+# Install dependencies
 RUN npm install --only=production
 
-# Set the environmental variable for JWT token
-ENV JWT_SECRET="12345"
-ENV NODE_ENV="production"
-# Copy local code to the container image.
-COPY . ./
+# Copy the rest of the application code
+COPY . .
 
-# Run the web service on container startup.
-CMD [ "node", "server.js" ]
+# Expose the port on which the application will run
+EXPOSE 8000
 
-# [END run_helloworld_dockerfile]
-# [END cloudrun_helloworld_dockerfile]
+# Command to run the application
+CMD [ "npm", "start" ]
